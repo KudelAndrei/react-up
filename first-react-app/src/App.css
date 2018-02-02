@@ -1,0 +1,14 @@
+.react {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 500px;
+  margin: auto;
+}
+.react h1 {
+  margin-bottom: 0px;
+}
+.react img {
+  max-width: 50%;
+  margin: auto;
+}
