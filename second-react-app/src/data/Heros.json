@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Человек-паук",
+        "desc": "вымышленный персонаж, супергерой комиксов издательства Marvel Comics, созданный Стэном Ли и Стивом Дитко.",
+        "img": "https://fthmb.tqn.com/xSwhcaVDHsmZtPrRUSDjK3nZtLk=/768x0/filters:no_upscale()/Spider-Man-59b19e1c22fa3a0011ef7041.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Капитан Америка",
+        "desc": "вымышленный персонаж супергерой комиксов издательства Marvel Comics.",
+        "img": "https://fsmedia.imgix.net/b3/e5/3a/14/c929/47c0/8a47/75604e47b3bf/avengers-age-of-ultron-2015.jpeg"
+    },
+    {
+        "id": 3,
+        "name": "Халк",
+        "desc": " вымышленный персонаж, супергерой комиксов издательства Marvel Comics. Халк был Создан Стэном Ли и Джеком Кёрби.",
+        "img": "https://images-na.ssl-images-amazon.com/images/I/516X0YLRV%2BL._SY450_.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Железный человек",
+        "desc": "персонаж, супергерой изданий Marvel Comics и их адаптаций, созданный писателем Стэном Ли, сценаристом Ларри Либером и художниками Доном Хэком и Джеком Кёрби.",
+        "img": "https://novy.tv/wp-content/uploads/sites/96/2016/11/526437_iron-man_nyu-jork_marvel_film_filmy_kino_1920x1200_www.GetBg_.net_.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Росомаха ",
+        "desc": " вымышленный персонаж, супергерой комиксов издательства Marvel Comics. Персонаж появился на свет в 180-м выпуске комикса «Incredible Hulk» в октябре 1974 года.",
+        "img": "https://d1nao0k9edgivc.cloudfront.net/wp-content/uploads/2013/06/Wolverine-616x462.jpg"
+    }
+]
