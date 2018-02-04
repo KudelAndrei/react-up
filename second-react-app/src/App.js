@@ -4,6 +4,11 @@ import Hero from './componets/hero/Hero.js';
 import Panel from './componets/panel/Panel.js';
 
 class App extends Component{
+
+    handleState(){
+        
+    }
+
     render(){
         return(
             <div className="wrap" >
@@ -22,7 +27,7 @@ class App extends Component{
                         })}
                     </div>
                     <div className="right">
-                        <Panel allCount='1' />
+                        <Panel countHeros={this.props.heros} />
                     </div>
                 </div>
             </div>

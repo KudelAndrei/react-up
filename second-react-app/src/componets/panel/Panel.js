@@ -2,21 +2,15 @@ import React, { Component } from "react";
 import './Panel.css';
 
 class Panel extends Component{
-    constructor(props, context) {
-        super(props, context);
-        
-        this.state = { count: this.ChangeCount.bind(this) };
-    }
-
-    ChangeCount(){
-       this.setState((props) => ({ count: this.props.allCount }));
-       console.log(this.state);
+    constructor(props) {
+        super(props);
+        console.log(this.props);
     }
     
     render(){
         return(
-            <div className="panel" onClick={this.ChangeCount} >
-                <span>Количество выбраных карточек: { this.props.allCount }</span>
+            <div className="panel">
+                <span>Количество выбраных карточек: { this.props.countHeros.length }</span>
             </div>
         )
     }
