@@ -10,7 +10,7 @@ class Panel extends Component{
     render(){
         return(
             <div className="panel">
-                <span>Количество выбраных карточек: { this.props.countHeros.length }</span>
+                <span>Количество выбраных карточек: { this.props.countHeros }</span>
             </div>
         )
     }

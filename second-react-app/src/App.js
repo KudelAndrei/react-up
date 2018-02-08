@@ -5,8 +5,17 @@ import Panel from './componets/panel/Panel.js';
 
 class App extends Component{
 
-    handleState(){
-        
+    constructor(props){
+        super(props);
+        this.state = { 
+            countActive: 0,
+            checked: false };
+        this.changeCountActive;
+    }
+
+    changeCountActive(props){
+        this.setState({ checked: !this.state.checked }); //countActive: ++this.state.countActive,
+        console.log(this.state.checked);
     }
 
     render(){
@@ -22,12 +31,13 @@ class App extends Component{
                                     name={hero.name}
                                     img={hero.img}
                                     desc={hero.desc}
+                                    onBnt={this.changeCountActive.bind(this)}
                                 />
                             )
                         })}
                     </div>
                     <div className="right">
-                        <Panel countHeros={this.props.heros} />
+                        <Panel countHeros={this.state.countActive} />
                     </div>
                 </div>
             </div>
