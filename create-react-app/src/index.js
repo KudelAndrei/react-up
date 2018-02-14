@@ -4,7 +4,7 @@ import App from "./App.js";
 import registerServiceWorker from './registerServiceWorker';
 
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<App title="Codedojo" />, document.getElementById('root'));
 
 
 registerServiceWorker();

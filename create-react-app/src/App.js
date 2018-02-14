@@ -1,14 +1,18 @@
 import React, { Component } from 'react';
-import "./App.css";
+import Todo from "./components/Todo.jsx";
+import "./style.css";
 
 class App extends Component {
+  constructor(props){
+    super(props);
+  }
   render() {
     return (
       <div>
         <header>
-          <h1>Welcome to Create-React-App</h1>
+          <h1>{this.props.title}</h1>
         </header>
-        <p>Create React apps with no build configuration</p>
+        <Todo />
       </div>
     );
   }
