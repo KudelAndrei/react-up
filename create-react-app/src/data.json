@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "title": "Выучить JavaScript",
+        "complited": true
+    },
+    {
+        "id": 2,
+        "title": "Выучить React",
+        "complited": false
+    },
+    {
+        "id": 3,
+        "title": "Выучить Angular",
+        "complited": false
+    }
+]
