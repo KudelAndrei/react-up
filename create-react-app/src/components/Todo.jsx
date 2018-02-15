@@ -9,7 +9,7 @@ function Todo(props){
 
             <Checkbox checked={props.complited} onChange={() => props.handleChange(props.id)} />            
             <span className="text">{props.title}</span>
-            <Button text="delete" className="btn" onClick={() => props.onDelete(props.id)} />
+            <Button text="delete" className="btn delete" onClick={() => props.onDelete(props.id)} />
 
         </div>
     );
@@ -19,7 +19,6 @@ Todo.propTypes = {
     title: PropTypes.string.isRequired,
     complited: PropTypes.bool.isRequired,
     handleChange: PropTypes.func.isRequired,
-    onDelete: PropTypes.func.isRequired
 };
 
 export default Todo;
