@@ -11,10 +11,9 @@ export class FullList extends React.Component{
         let index = data.lists.findIndex(list => list.id === (Number(this.props.match.params.id)) );
         const list = data.lists.find(list => list.id === index);
 
-        console.log(index,list);
         return(
             <div>
-                <h1>Full infa Chehla "{list.title}"</h1>
+                <h1>Полная информация чехла "{list.title}"</h1>
                 <h3>Description:</h3>
                 <ul className="desc">
                     <li><strong>id:</strong> {list.id}</li>

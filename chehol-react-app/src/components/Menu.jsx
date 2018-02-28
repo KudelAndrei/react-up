@@ -10,12 +10,13 @@ class Menu extends Component{
     render(){
         return(
             <div className="menu">
-                <Link to='/' component={Home} className="logo" >Logo</Link>
+                <Link to='/' className="logo" >Logo</Link>
                 {
                     this.props.menu.map(list => (
                         <Link to={`/collections/${list.link}`} key={list.name}>{list.name}</Link>
                     ))
                 }
+                <Link to='/search' className="find" />
             </div>
         )
     }

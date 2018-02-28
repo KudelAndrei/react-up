@@ -27,6 +27,27 @@ body{
     color: #a50050;
     text-transform: uppercase;
 }
+.menu a.find{
+    position: relative;
+    min-width: 15px;
+    max-width: 20px;
+    background-image: url(http://www.clker.com/cliparts/z/1/T/u/9/2/search-icon-hi.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+.search input{
+    position: relative;
+    height: 40px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px 20px;
+    font-size: 22px;
+    margin-bottom: 20px;
+    outline: none;
+}
+
 
 .collcetions{
     display: flex;
