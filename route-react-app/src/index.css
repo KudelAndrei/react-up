@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.navigation{
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-link{
+  margin: 0 10px;
+}
+
+.selected{
+  color: #333;
+}
