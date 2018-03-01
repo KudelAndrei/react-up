@@ -3,6 +3,7 @@ import Home from './Home';
 import Collections from './Collections';
 import Search from './Search';
 import Menu from './Menu';
+import NotFound from './NotFound';
 import FullList from './FullList';
 
 import { Route, Switch } from 'react-router-dom';
@@ -16,8 +17,9 @@ function Content(){
             <Switch>
                 <Route exact path='/' component={Home} />
                 <Route exact path='/collections/:topic' component={Collections} />
-                <Route path='/collections/:topic/:id' component={FullList} />
+                <Route exact path='/collections/:topic/:id' component={FullList} />
                 <Route path='/search' component={Search} />
+                <Route component={NotFound} />
             </Switch>
         </div>
     );
