@@ -16,8 +16,9 @@ class Search extends React.Component{
 
     serchTitle(event){
         this.setState({ title: event.target.value });
-        const lists = data.lists.filter(list => list.title.includes(this.state.title));
-        this.setState({ amount: lists.length, lists: lists });
+        const lists = event.target.value && data.lists.filter(list => list.title.includes(event.target.value));
+        this.setState({ amount: lists.length, lists });
+        console.log(this.state.amount);
     }
 
     render(){

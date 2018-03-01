@@ -12,7 +12,7 @@ import data from '../data/data';
 function Content(){
     return(
         <div>
-            <Menu menu={data.menu} />
+            <Menu>{data.menu}</Menu>
             <Switch>
                 <Route exact path='/' component={Home} />
                 <Route exact path='/collections/:topic' component={Collections} />
@@ -22,5 +22,4 @@ function Content(){
         </div>
     );
 }
-
 export default Content;
